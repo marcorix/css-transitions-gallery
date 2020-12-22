@@ -4,9 +4,26 @@
 
 .button {
 	color: #fff;
-	background: #4a89ca;
+  background: #4a89ca;
+  transition-duration: .5s;
 }
-
+.button:hover {
+  background-color: rgb(33, 138, 103);
+}
+.button:active {
+  background-color: blueviolet;
+}
 /* ================================= 
   Photo Overlay Transitions
 ==================================== */
+
+
+.photo-overlay {
+  transition-property: opacity;
+  transition-duration: .5s;
+  opacity: 0;
+}
+
+.photo-overlay:hover {
+  opacity: 1;
+}
